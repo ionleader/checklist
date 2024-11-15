@@ -23,15 +23,15 @@ const TradingChecklist = () => {
 
   const checkItems = {
     nq: {
-      nqTrend: "1sd/VWAP oder HTF Lvl, CVA",
-      nqVolume: "Context ok",
+      nqTrend: "1sd/VWAP, HTF Lvl, CVA oder poc?",
+      nqVolume: "Context gut und entschieden ob mini oder micro (einheitlich) fuer den Tag?",
       nqRsi: "5 Minuten Pause nach 1 Loser?",
       nqSupport: "starkes Lvl?",
       nqRisk: "entry geplant?"
     },
     cl: {
-      clTrend: "PB_Bounce oder sehr starker 2. Test? oder starker fade",
-      clInventory: "price action ok?",
+      clTrend: "PB_Bounce, sehr starker 2. Test oder starker fade?",
+      clInventory: "price action gut?",
       clVolume: "Limit Order?"
     }
   };
